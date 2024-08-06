@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.topics {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.comments {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.comment {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.username {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.text {
+    margin: 5px 0;
+}
+
+.created_at {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.comment-form {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none; /* Opcional: evita el redimensionamiento */
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

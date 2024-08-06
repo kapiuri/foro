@@ -1,0 +1,50 @@
+/* styleindex.css */
+
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para la lista de enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cada elemento de la lista */
+li {
+    margin: 0;
+}
+
+/* Estilo para los enlaces dentro de la lista */
+a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo para el estado de hover de los enlaces */
+a:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+    transition: background-color 0.3s, color 0.3s;
+}
