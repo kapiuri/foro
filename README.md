@@ -1,6 +1,5 @@
 # Foro
-Foro para crear diversos temas
-
+Este es un foro creado en PHP que se puede utilizar para cualquier tipo de temática
 
 ## Como funciona
 - Lo primero es importar el archivo database.sql para tener la base de datos creada.
